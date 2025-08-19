@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+void printArray(int arr[],int size){
+	int i;
+	printf("int num[] = {");
+	for (i = 0;i<size;i++){
+	 printf("%d",arr[i]);
+	 if (i==size-1){
+	 	continue;
+	 }
+	 else{
+	 	printf(",");
+	 }
+	}
+	printf("}");
+}
+
+
+int main(int argc, char *argv[]) {
+	int num[] = {20,24,36,78,89,45};
+	int size = sizeof(num) / sizeof(num[0]);
+	
+	printArray(num,size);
+	
+	printf("\n");
+	
+	int num2[]= {1,2,3,4,5,6};
+	int size2 = sizeof(num2) / sizeof(num[0]);
+	
+	printArray(num2,size);
+	
+		printf("\n");
+		
+	int num3[]= {2,4,6,8,10,12};
+	int size3 = sizeof(num3) / sizeof(num[0]);
+	
+	printArray(num3,size);
+
+	return 0;
+}
