@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" href="LOGIN.css"><br>
+        <title>LOG IN</title>
+    </head>
+    <body>
+<form action="">
+        <h3>Username: <input type="text" name="Username"></h3>
+        <h3>Password: <input type="password" name="Password"></h3>
+    <button>
+    Log in
+    </button>
+    </form>
+</body>
+</html>
+
+---
+
+
+
+body{
+    background-color: pink;
+}
+form{
+    justify-content: center;
+ position: absolute;
+ top: 34%;
+ left: 30%;
+ background-color: #c9a6a6;
+ flex-direction: column;
+ align-items: center;
+text-align: center;
+width: 30%;
+gap: 40px;
+padding: 5%;
+outline:  solid 2px;
+
+}
+
+
+
+button{
+    background-color: #ffffff;
+    width: 200px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
